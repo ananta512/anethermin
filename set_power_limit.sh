@@ -31,7 +31,7 @@ TODAY=`date '+%Y-%m-%d'`
 mkdir -p ${RDIR}/logs/
 LOG=${RDIR}/logs/${ME}.${TODAY}.log
 
-POWERLIMIT=120
+POWERLIMIT=300
 GPUCNT=`nvidia-smi -L | wc -l`
 let GPUCNTMAX=GPUCNT-1
 
